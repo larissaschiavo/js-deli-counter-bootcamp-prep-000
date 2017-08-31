@@ -1,3 +1,3 @@
 var katzDeli = [];
 
-function takeANumber(katzDeliLine)
+function takeANumber(katzDeliLine, personName)
