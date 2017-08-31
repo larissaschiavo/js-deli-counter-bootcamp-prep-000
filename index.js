@@ -17,6 +17,6 @@ function nowServing(katzDeliLine) {
   } else {
     const n = katzDeliLine[0]
     return `Currently serving ${n}.`
-    delete katzDeliLine[0]
+    delete katzDeliLine[0];
   }
 }
