@@ -31,4 +31,5 @@ function currentLine(line) {
       ans.push(`${i}. ${line[i]}, `)
     }
   }
+  ans.join()
 }
