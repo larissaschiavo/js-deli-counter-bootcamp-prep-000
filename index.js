@@ -18,6 +18,5 @@ function nowServing(katzDeliLine) {
     const n = katzDeliLine[0];
     katzDeliLine.shift();
     return `Currently serving ${n}.`
-
   }
 }
