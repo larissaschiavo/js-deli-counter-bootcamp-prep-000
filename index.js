@@ -16,6 +16,6 @@ function nowServing(katzDeliLine) {
     return "The line is empty."
   } else {
     return `Currently serving ${katzDeliLine[0]}.`
-    katzDeliLine.unshift();
+    delete katzDeliLine[0];
   }
 }
