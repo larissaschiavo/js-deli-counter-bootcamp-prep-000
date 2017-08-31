@@ -30,7 +30,7 @@ function currentLine(line) {
     for(let i = 0; i < line.length; i ++) {
       ans.push(`${i}. ${line[i]}, `)
     }
-    return ans.join()
+    return ans.join();
   }
 
 }
