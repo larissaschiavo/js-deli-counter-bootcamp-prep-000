@@ -13,6 +13,6 @@ function takeANumber(katzDeliLine, personName) {
 
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length === 0) {
-    
+    return "The line is empty."
   }
 }
