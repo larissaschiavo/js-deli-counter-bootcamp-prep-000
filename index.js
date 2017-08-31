@@ -8,6 +8,6 @@ function takeANumber(katzDeliLine, personName) {
     return 1
   } else {
     katzDeliLine.push(personName)
-    return `Welcome, ${Ada. You are number ${katzDeliLine.length} in line.`
+    return `Welcome, ${personName}. You are number ${katzDeliLine.length} in line.`
   }
 }
