@@ -35,5 +35,4 @@ function currentLine(line) {
     }
     return ans.join(" ");
   }
-
 }
