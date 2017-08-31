@@ -12,5 +12,7 @@ function takeANumber(katzDeliLine, personName) {
 }
 
 function nowServing(katzDeliLine) {
-  if
+  if (katzDeliLine.length === 0) {
+    
+  }
 }
