@@ -16,7 +16,8 @@ function nowServing(katzDeliLine) {
     return 'There is nobody waiting to be served!'
   } else {
     const n = katzDeliLine[0]
-    return `Currently serving ${n}.`
     delete katzDeliLine[0];
+    return `Currently serving ${n}.`
+
   }
 }
