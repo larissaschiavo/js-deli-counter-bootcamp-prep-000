@@ -28,7 +28,7 @@ function currentLine(line) {
     return "The line is currently empty."
   } else {
     for(let i = 0; i < line.length; i ++) {
-      ans.pop(`line[i]``, )
+      ans.pop( i + "."+ `line[i]` + ', ' )
     }
   }
 }
